@@ -1,85 +1,75 @@
 #project {
-    color: var(--text-col);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  color: var(--text-col);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-container {
-    max-width: 1200px;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  max-width: 1200px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .project-container h1 {
-    font-size: var(--font-heading);
-    margin-bottom: 20px;
+  font-size: var(--font-heading);
+  margin-bottom: 20px;
   margin-top: 100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-      border-bottom: 2px solid var(--text-col);
-
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid var(--text-col);
 }
 
 .project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-    margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .project-card {
-    width: 320px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 20px;
-    background-color: var(--opacity);
-    border-radius: var(--border-radius);
-    transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 20px;
+  background-color: var(--opacity);
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .project-card h2 {
-    font-size: var(--font-sub-heading);
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 10px;
+  font-size: var(--font-sub-heading);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .project-card p {
-    font-size: var(--font-para);
-    text-align: justify;
-    opacity: 0.8;
-    line-height: 1.5;
+  font-size: var(--font-para);
+  text-align: justify;
+  opacity: 0.8;
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {
-
-
-    .project-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-.project-container h1{
+  .project-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-container h1 {
     margin: 70px 0px 0px 0px;
-}
-    .project-card {
-        width: 100%;
-        max-width: 400px;
-        display: flex;
-        flex-direction: column;
-
-    }
+  }
 }
