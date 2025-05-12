@@ -37,7 +37,7 @@
 
 .project-card {
     width: 320px;
-    height: fit-content;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
