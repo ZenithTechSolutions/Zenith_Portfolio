@@ -37,10 +37,10 @@
 
 .project-card {
     width: 320px;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     padding: 20px;
     background-color: var(--opacity);
     border-radius: var(--border-radius);
@@ -49,7 +49,6 @@
 
 .project-card:hover {
     transform: translateY(-10px);
-    background-color: var(--card-hover);
 }
 
 .project-card h2 {
@@ -61,7 +60,7 @@
 
 .project-card p {
     font-size: var(--font-para);
-    text-align: center;
+    text-align: justify;
     opacity: 0.8;
     line-height: 1.5;
 }
