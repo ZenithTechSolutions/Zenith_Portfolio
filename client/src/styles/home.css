@@ -1,0 +1,15 @@
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#home h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    color: var(--text-col);
+    font-weight: bold;
+}
+
+

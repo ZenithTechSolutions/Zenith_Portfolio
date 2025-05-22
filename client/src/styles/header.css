@@ -1,0 +1,25 @@
+header img{
+ width: 40px;
+ height: 40px;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+header a{
+    text-decoration: none;
+}
+header a:visited{
+    color: var();
+}
+header li{
+    list-style: none;
+}
