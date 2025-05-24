@@ -13,7 +13,7 @@ function Contact() {
     e.preventDefault();
     alert("Success");
     e.target.reset();
-    const scriptURL = "https://script.google.com/macros/s/AKfycbxCi-Og6RdVhILgYZ4hVYwYqnTYIswe3iP_vRYmbg58fVUYPgrMf531yatG0Uf2VCTpOg/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbyU7fsyJeBiRKGDNn0On8YG10DjE_29URCvXJAs-NDYLwe-iFDSa-CArnHSCOoqIGlMGA/exec";
     await fetch(scriptURL, {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
